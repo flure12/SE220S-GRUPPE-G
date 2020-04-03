@@ -45,8 +45,8 @@ script:
 
 addons:
   sonarcloud:
-    organization: "gruppeG" # der key der organisation auf sonarcloud.io
-    token: d7b4b0684062c03f2d94f6703af9c840b4d4235c # Umgebungsvariable auf travis-ci.com
+    organization: "gruppe" # der key der organisation auf sonarcloud.io
+    token: $SONAR_CLOUD # Umgebungsvariable auf travis-ci.com
 
 # benachrichtigungen per email ausschalten
 notifications:
